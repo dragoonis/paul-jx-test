@@ -1,7 +1,5 @@
 pipeline {
-  agent {
-    label "jenkins-nodejs"
-  }
+  agent any
   environment {
     ORG = 'dragoonis'
     APP_NAME = 'paul-jx-test'
